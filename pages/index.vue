@@ -9,7 +9,7 @@
           <v-content>
             <section>
               <v-parallax
-                src="/hero.jpeg"
+                src="https://raw.githubusercontent.com/vuetifyjs/parallax-starter/master/template/assets/hero.jpeg"
                 height="600">
                 <v-layout
                   column
@@ -23,15 +23,7 @@
                       alt="Profil picture">
                   </v-avatar>
                   <h1 class="white--text mb-2 display-1 text-xs-center">{{ title }}</h1>
-                  <div class="subheading mb-3 text-xs-center">Full Stack Developper</div>
-                  <v-btn
-                    class="blue lighten-2 mt-5"
-                    dark
-                    large
-                    href="/pre-made-themes"
-                  >
-                    Get Started
-                  </v-btn>
+                  <div class="subheading mb-3 text-xs-center">Student Developper</div>
                 </v-layout>
               </v-parallax>
             </section>
@@ -48,10 +40,15 @@
                   sm4
                   class="my-3">
                   <div class="text-xs-center">
-                    <h2 class="headline">The best way to start developing</h2>
+                    <h2 class="headline">I'm a french student learning new Javascript Frameworks</h2>
                     <span class="subheading">
-                      Cras facilisis mi vitae nunc
+                      I'm currently learning vue.js frameworks (mostly),
+                      to build multi-platform web app.
                     </span>
+                    <v-img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Vue.js_Logo.svg/2000px-Vue.js_Logo.svg.png"
+                      style="display: block; margin: auto;"
+                      width="200"/>
                   </div>
                 </v-flex>
                 <v-flex xs12>
@@ -72,12 +69,18 @@
                           <v-card-title
                             primary-title
                             class="layout justify-center">
-                            <div class="headline text-xs-center">Material Design</div>
+                            <div class="headline text-xs-center">Web Applications</div>
                           </v-card-title>
                           <v-card-text>
-                            Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                            Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                            <v-layout
+                              row
+                              wrap>
+                              <v-img
+                                src="https://i.imgur.com/PzEm5j2.png"
+                                alt="nuxt.js"
+                                containt
+                                aspect-ratio="1"/>
+                            </v-layout>
                           </v-card-text>
                         </v-card>
                       </v-flex>
@@ -93,12 +96,18 @@
                           <v-card-title
                             primary-title
                             class="layout justify-center">
-                            <div class="headline">Fast development</div>
+                            <div class="headline text-xs-center">Mobile Applications</div>
                           </v-card-title>
                           <v-card-text>
-                            Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                            Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                            <v-layout
+                              row
+                              wrap>
+                              <v-img
+                                src="https://madewithvuejs.com/uploads/00/12/nativescript-vue.jpg"
+                                alt="native-script vue"
+                                contain
+                                aspect-ratio="1"/>
+                            </v-layout>
                           </v-card-text>
                         </v-card>
                       </v-flex>
@@ -114,12 +123,18 @@
                           <v-card-title
                             primary-title
                             class="layout justify-center">
-                            <div class="headline text-xs-center">Completely Open Sourced</div>
+                            <div class="headline text-xs-center">Desktop Applications</div>
                           </v-card-title>
                           <v-card-text>
-                            Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                            Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                            <v-layout
+                              row
+                              wrap>
+                              <v-img
+                                src="https://raw.githubusercontent.com/Thomas-Philippot/Desktop-meteo/master/src/renderer/assets/logo.png"
+                                alt="electron vue"
+                                containt
+                                aspect-ratio="1"/>
+                            </v-layout>
                           </v-card-text>
                         </v-card>
                       </v-flex>
@@ -131,7 +146,7 @@
 
             <section>
               <v-parallax
-                src="/plane.jpg"
+                src="https://raw.githubusercontent.com/vuetifyjs/parallax-starter/master/template/assets/section.jpg"
                 height="380">
                 <v-layout
                   column
@@ -139,14 +154,6 @@
                   justify-center>
                   <div class="headline white--text mb-3 text-xs-center">Web development has never been easier</div>
                   <em>Kick-start your application today</em>
-                  <v-btn
-                    class="blue lighten-2 mt-5"
-                    dark
-                    large
-                    href="/pre-made-themes"
-                  >
-                    Get Started
-                  </v-btn>
                 </v-layout>
               </v-parallax>
             </section>
@@ -172,6 +179,9 @@
                         Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
                         Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
                       </v-card-text>
+                      <img
+                        src="/stage1.png"
+                        alt="stage picture">
                     </v-card>
                   </v-flex>
                   <v-flex
