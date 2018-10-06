@@ -146,7 +146,7 @@
 
             <section>
               <v-parallax
-                src="https://raw.githubusercontent.com/vuetifyjs/parallax-starter/master/template/assets/section.jpg"
+                src="./plane.jpg"
                 height="380">
                 <v-layout
                   column
